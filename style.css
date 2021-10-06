@@ -56,7 +56,7 @@ a:hover {
 .topnav {
     background-color: #91B3FB;
     overflow: hidden;
-    max-width: 960px;
+    width: 960px;
     margin: auto;
 }
 
