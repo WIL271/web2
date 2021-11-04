@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Список гиперссылок</title>
+   <title>Список гиперссылок</title>
 </head>
 
 <html>
@@ -38,7 +38,11 @@
         <li><a href="https://test.html#bottom">Ссылка на фрагмент страницы(якорь)</a></li>
         <li><a href="#top">Ссылка на начало страницы</a></li>
         <li><a href="https://github.com/?branch=master&repo=chat">Ссылка с двумя GET параметрами</a></li>
-        <li><a href="#anchor">Начало страницы</a><a href="#">Главная</a></li>
+        <li>Список ссылок навигации с подписями</li>
+        <ul>
+            <li><a href="https://www.kubsu.ru/ru/university" title="Университет">Университет</a></li>
+            <li><a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a></li>
+        </ul>
         <li><a> "https://jdk.java.net/" Ссылка без href </a></li>
         <li><a href="">Ссылка с пустым href</a></li>
         <li><a href="https://test.com" rel="nofollow">Ссылка nofollow</a></li>
@@ -48,7 +52,7 @@
                 <a href="https://ru.lipsum.com/">Lorem Ipsum</a>Vivamus consectetur nisi nisi. Aenean vel facilisis eros. Sed tellus nibh, pellentesque at venenatis quis, viverra in urna. Quisque interdum tortor ut auctor pellentesque. Morbi ut lobortis dui. Donec eu ullamcorper nunc, a commodo quam. Vestibulum eget ipsum eget nunc fringilla suscipit eu a ipsum.
         </li>
         <li><a href="https://self-learning.ru/course/sql-basics?utm_source=infocomp&utm_medium=banner&utm_campaign=sqlbasics&utm_content=sidebar">
-        <img src="Rickbaby.jpg" width="145" height="220" alt="flower"></a></li><li>
+            <img src="Rickbaby.jpg" width="145" height="220" alt="flower"></a></li><li>
         <img src="Rick.jpg" width="145" height="110" usemap="#navigation" alt="map">
         <map name="navigation">
             <area shape="circle"
@@ -154,9 +158,9 @@
             <br>
             <select size="3" multiple name="superpower[]">
                 <option disabled>Выберите cверхспособности</option>
-                <option selected value="Значение1">Бессмертие</option>
-                <option selected value="Значение2" selected="selected">Левитация</option>
-                <option selected value="Значение3" selected="selected">Прохождение сквозь стены</option>
+                <option value="Значение1">Бессмертие</option>
+                <option value="Значение2" selected="selected">Левитация</option>
+                <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
             </select>
         </label><br>
 
@@ -176,5 +180,3 @@
     <p class="bottom"> Котельников Владислав, 2021</p>
 </footer>
 </html>
-
-
